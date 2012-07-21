@@ -14,7 +14,8 @@
 		A1E4FFDC15BB706200B481D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4FFCA15BB706200B481D4 /* Foundation.framework */; };
 		A1E4FFDF15BB706200B481D4 /* libDregs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4FFC715BB706200B481D4 /* libDregs.a */; };
 		A1E4FFE515BB706200B481D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1E4FFE315BB706200B481D4 /* InfoPlist.strings */; };
-		A1E4FFE815BB706200B481D4 /* DregsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4FFE715BB706200B481D4 /* DregsTests.m */; };
+		A1E4FFF815BB729400B481D4 /* MathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4FFF715BB729400B481D4 /* MathSpec.m */; };
+		A1E4FFFB15BB734300B481D4 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4FFFA15BB734300B481D4 /* libKiwi.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +31,16 @@
 /* Begin PBXFileReference section */
 		A1E4FFC715BB706200B481D4 /* libDregs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDregs.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E4FFCA15BB706200B481D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A1E4FFCE15BB706200B481D4 /* Dregs-Prefix.pch */ = {isa = PBXFileReference; path = "Dregs-Prefix.pch"; sourceTree = "<group>"; };
-		A1E4FFCF15BB706200B481D4 /* Dregs.h */ = {isa = PBXFileReference; path = Dregs.h; sourceTree = "<group>"; };
+		A1E4FFCE15BB706200B481D4 /* Dregs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dregs-Prefix.pch"; sourceTree = "<group>"; };
+		A1E4FFCF15BB706200B481D4 /* Dregs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dregs.h; sourceTree = "<group>"; };
 		A1E4FFD015BB706200B481D4 /* Dregs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dregs.m; sourceTree = "<group>"; };
 		A1E4FFD715BB706200B481D4 /* DregsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DregsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E4FFD815BB706200B481D4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A1E4FFDA15BB706200B481D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		A1E4FFE215BB706200B481D4 /* DregsTests-Info.plist */ = {isa = PBXFileReference; path = "DregsTests-Info.plist"; sourceTree = "<group>"; };
+		A1E4FFE215BB706200B481D4 /* DregsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DregsTests-Info.plist"; sourceTree = "<group>"; };
 		A1E4FFE415BB706200B481D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A1E4FFE615BB706200B481D4 /* DregsTests.h */ = {isa = PBXFileReference; path = DregsTests.h; sourceTree = "<group>"; };
-		A1E4FFE715BB706200B481D4 /* DregsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DregsTests.m; sourceTree = "<group>"; };
+		A1E4FFF715BB729400B481D4 /* MathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathSpec.m; sourceTree = "<group>"; };
+		A1E4FFFA15BB734300B481D4 /* libKiwi.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libKiwi.a; path = "Frameworks/Kiwi/build/Release-iphoneos/libKiwi.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E4FFFB15BB734300B481D4 /* libKiwi.a in Frameworks */,
 				A1E4FFD915BB706200B481D4 /* SenTestingKit.framework in Frameworks */,
 				A1E4FFDB15BB706200B481D4 /* UIKit.framework in Frameworks */,
 				A1E4FFDC15BB706200B481D4 /* Foundation.framework in Frameworks */,
@@ -87,6 +89,7 @@
 		A1E4FFC915BB706200B481D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1E4FFFA15BB734300B481D4 /* libKiwi.a */,
 				A1E4FFCA15BB706200B481D4 /* Foundation.framework */,
 				A1E4FFD815BB706200B481D4 /* SenTestingKit.framework */,
 				A1E4FFDA15BB706200B481D4 /* UIKit.framework */,
@@ -115,8 +118,7 @@
 		A1E4FFE015BB706200B481D4 /* DregsTests */ = {
 			isa = PBXGroup;
 			children = (
-				A1E4FFE615BB706200B481D4 /* DregsTests.h */,
-				A1E4FFE715BB706200B481D4 /* DregsTests.m */,
+				A1E4FFF715BB729400B481D4 /* MathSpec.m */,
 				A1E4FFE115BB706200B481D4 /* Supporting Files */,
 			);
 			path = DregsTests;
@@ -247,7 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1E4FFE815BB706200B481D4 /* DregsTests.m in Sources */,
+				A1E4FFF815BB729400B481D4 /* MathSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +349,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dregs/Dregs-Prefix.pch";
 				INFOPLIST_FILE = "DregsTests/DregsTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/Frameworks/Kiwi/Kiwi";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -362,7 +366,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dregs/Dregs-Prefix.pch";
 				INFOPLIST_FILE = "DregsTests/DregsTests-Info.plist";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SOURCE_ROOT)/Frameworks/Kiwi/Kiwi";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -386,6 +392,7 @@
 				A1E4FFED15BB706200B481D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A1E4FFEE15BB706200B481D4 /* Build configuration list for PBXNativeTarget "DregsTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +401,7 @@
 				A1E4FFF015BB706200B481D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
