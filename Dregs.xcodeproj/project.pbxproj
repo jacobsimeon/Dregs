@@ -7,18 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1E4001715BB749200B481D4 /* Dregs.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4000115BB749200B481D4 /* Dregs.h */; };
+		A1E4001815BB749200B481D4 /* Dregs.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4000215BB749200B481D4 /* Dregs.m */; };
+		A1E4001915BB749200B481D4 /* DregsConfigurator.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4000315BB749200B481D4 /* DregsConfigurator.h */; };
+		A1E4001A15BB749200B481D4 /* DregsConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4000415BB749200B481D4 /* DregsConfigurator.m */; };
+		A1E4001B15BB749200B481D4 /* DregsCreateService.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4000515BB749200B481D4 /* DregsCreateService.h */; };
+		A1E4001C15BB749200B481D4 /* DregsCreateService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4000615BB749200B481D4 /* DregsCreateService.m */; };
+		A1E4001D15BB749200B481D4 /* DregsDeleteService.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4000715BB749200B481D4 /* DregsDeleteService.h */; };
+		A1E4001E15BB749200B481D4 /* DregsDeleteService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4000815BB749200B481D4 /* DregsDeleteService.m */; };
+		A1E4001F15BB749200B481D4 /* DregsError.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4000915BB749200B481D4 /* DregsError.h */; };
+		A1E4002015BB749200B481D4 /* DregsError.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4000A15BB749200B481D4 /* DregsError.m */; };
+		A1E4002115BB749200B481D4 /* DregsReadManyService.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4000B15BB749200B481D4 /* DregsReadManyService.h */; };
+		A1E4002215BB749200B481D4 /* DregsReadManyService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4000C15BB749200B481D4 /* DregsReadManyService.m */; };
+		A1E4002315BB749200B481D4 /* DregsReadOneService.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4000D15BB749200B481D4 /* DregsReadOneService.h */; };
+		A1E4002415BB749200B481D4 /* DregsReadOneService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4000E15BB749200B481D4 /* DregsReadOneService.m */; };
+		A1E4002515BB749200B481D4 /* DregsResourceConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4000F15BB749200B481D4 /* DregsResourceConfiguration.h */; };
+		A1E4002615BB749200B481D4 /* DregsResourceConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4001015BB749200B481D4 /* DregsResourceConfiguration.m */; };
+		A1E4002715BB749200B481D4 /* DregsRoutingConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4001115BB749200B481D4 /* DregsRoutingConfiguration.h */; };
+		A1E4002815BB749200B481D4 /* DregsRoutingConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4001215BB749200B481D4 /* DregsRoutingConfiguration.m */; };
+		A1E4002915BB749200B481D4 /* DregsServiceBase.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4001315BB749200B481D4 /* DregsServiceBase.h */; };
+		A1E4002A15BB749200B481D4 /* DregsServiceBase.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4001415BB749200B481D4 /* DregsServiceBase.m */; };
+		A1E4002B15BB749200B481D4 /* DregsUpdateService.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E4001515BB749200B481D4 /* DregsUpdateService.h */; };
+		A1E4002C15BB749200B481D4 /* DregsUpdateService.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4001615BB749200B481D4 /* DregsUpdateService.m */; };
+		A1E4003115BB757D00B481D4 /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003015BB757D00B481D4 /* libRestKit.a */; };
+		A1E4003315BB758600B481D4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003215BB758600B481D4 /* CFNetwork.framework */; };
+		A1E4003515BB758F00B481D4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003415BB758F00B481D4 /* CoreData.framework */; };
+		A1E4003715BB759700B481D4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003615BB759700B481D4 /* Security.framework */; };
+		A1E4003915BB759E00B481D4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003815BB759E00B481D4 /* MobileCoreServices.framework */; };
+		A1E4003B15BB75A800B481D4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003A15BB75A800B481D4 /* SystemConfiguration.framework */; };
+		A1E4003D15BB75AF00B481D4 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003C15BB75AF00B481D4 /* libxml2.dylib */; };
+		A1E4003F15BB75B800B481D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003E15BB75B800B481D4 /* QuartzCore.framework */; };
+		A1E4005515BB765700B481D4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003215BB758600B481D4 /* CFNetwork.framework */; };
+		A1E4005615BB765E00B481D4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003415BB758F00B481D4 /* CoreData.framework */; };
+		A1E4005715BB766300B481D4 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003615BB759700B481D4 /* Security.framework */; };
+		A1E4005815BB766B00B481D4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003815BB759E00B481D4 /* MobileCoreServices.framework */; };
+		A1E4005915BB767200B481D4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003A15BB75A800B481D4 /* SystemConfiguration.framework */; };
+		A1E4005A15BB767900B481D4 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003C15BB75AF00B481D4 /* libxml2.dylib */; };
+		A1E4005B15BB768300B481D4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4003E15BB75B800B481D4 /* QuartzCore.framework */; };
+		A1E4006115BB784F00B481D4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4FFD815BB706200B481D4 /* SenTestingKit.framework */; };
+		A1E4006715BB791300B481D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4006615BB791300B481D4 /* CoreGraphics.framework */; };
+		A1E4008415BB7B2500B481D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4006615BB791300B481D4 /* CoreGraphics.framework */; };
+		A1E4008615BB7B3A00B481D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4FFDA15BB706200B481D4 /* UIKit.framework */; };
+		A1E4008715BB7B3E00B481D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4FFDA15BB706200B481D4 /* UIKit.framework */; };
+		A1E4008815BB7B5E00B481D4 /* DreggableTask.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4004115BB760E00B481D4 /* DreggableTask.m */; };
+		A1E4008915BB7B7500B481D4 /* DregsConfiguratorSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4004215BB760E00B481D4 /* DregsConfiguratorSpec.m */; };
+		A1E4008A15BB7B7800B481D4 /* DregsCreateServiceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4004315BB760E00B481D4 /* DregsCreateServiceSpec.m */; };
+		A1E4008B15BB7B7A00B481D4 /* DregsDeleteServiceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4004415BB760E00B481D4 /* DregsDeleteServiceSpec.m */; };
+		A1E4008C15BB7B7C00B481D4 /* DregsReadManyServiceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4004515BB760E00B481D4 /* DregsReadManyServiceSpec.m */; };
+		A1E4008D15BB7B8000B481D4 /* DregsReadOneServiceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4004615BB760E00B481D4 /* DregsReadOneServiceSpec.m */; };
+		A1E4008E15BB7B8200B481D4 /* DregsResourceConfigurationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4004715BB760E00B481D4 /* DregsResourceConfigurationSpec.m */; };
+		A1E4008F15BB7B8500B481D4 /* DregsRoutingConfigurationSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4004815BB760E00B481D4 /* DregsRoutingConfigurationSpec.m */; };
+		A1E4009015BB7B8700B481D4 /* DregsUpdateServiceSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4004915BB760E00B481D4 /* DregsUpdateServiceSpec.m */; };
+		A1E4009115BB7B8B00B481D4 /* DregsSpecHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4FFFF15BB743F00B481D4 /* DregsSpecHelper.m */; };
+		A1E4009215BB7B8D00B481D4 /* DregsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4FFFC15BB741F00B481D4 /* DregsSpec.m */; };
 		A1E4FFCB15BB706200B481D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4FFCA15BB706200B481D4 /* Foundation.framework */; };
-		A1E4FFD115BB706200B481D4 /* Dregs.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4FFD015BB706200B481D4 /* Dregs.m */; };
-		A1E4FFD915BB706200B481D4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4FFD815BB706200B481D4 /* SenTestingKit.framework */; };
-		A1E4FFDB15BB706200B481D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4FFDA15BB706200B481D4 /* UIKit.framework */; };
 		A1E4FFDC15BB706200B481D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4FFCA15BB706200B481D4 /* Foundation.framework */; };
 		A1E4FFDF15BB706200B481D4 /* libDregs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4FFC715BB706200B481D4 /* libDregs.a */; };
 		A1E4FFE515BB706200B481D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1E4FFE315BB706200B481D4 /* InfoPlist.strings */; };
-		A1E4FFF815BB729400B481D4 /* MathSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E4FFF715BB729400B481D4 /* MathSpec.m */; };
 		A1E4FFFB15BB734300B481D4 /* libKiwi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E4FFFA15BB734300B481D4 /* libKiwi.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A1E4007115BB79AA00B481D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E4006915BB79AA00B481D4 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D1614564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		A1E4007315BB79AA00B481D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E4006915BB79AA00B481D4 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160D2614564E820060A5C5;
+			remoteInfo = RestKitTests;
+		};
+		A1E4007515BB79AA00B481D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E4006915BB79AA00B481D4 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E62145651060060A5C5;
+			remoteInfo = RestKitFramework;
+		};
+		A1E4007715BB79AA00B481D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E4006915BB79AA00B481D4 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25160E78145651060060A5C5;
+			remoteInfo = RestKitFrameworkTests;
+		};
+		A1E4007915BB79AA00B481D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E4006915BB79AA00B481D4 /* RestKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 259C301615128079003066A2;
+			remoteInfo = RestKitResources;
+		};
+		A1E4007B15BB79B600B481D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E4006915BB79AA00B481D4 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
+		A1E4007D15BB79BE00B481D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E4006915BB79AA00B481D4 /* RestKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 25160D1514564E810060A5C5;
+			remoteInfo = RestKit;
+		};
 		A1E4FFDD15BB706200B481D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A1E4FFBE15BB706200B481D4 /* Project object */;
@@ -29,18 +127,60 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A1E4000115BB749200B481D4 /* Dregs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dregs.h; sourceTree = "<group>"; };
+		A1E4000215BB749200B481D4 /* Dregs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dregs.m; sourceTree = "<group>"; };
+		A1E4000315BB749200B481D4 /* DregsConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DregsConfigurator.h; sourceTree = "<group>"; };
+		A1E4000415BB749200B481D4 /* DregsConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsConfigurator.m; sourceTree = "<group>"; };
+		A1E4000515BB749200B481D4 /* DregsCreateService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DregsCreateService.h; sourceTree = "<group>"; };
+		A1E4000615BB749200B481D4 /* DregsCreateService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsCreateService.m; sourceTree = "<group>"; };
+		A1E4000715BB749200B481D4 /* DregsDeleteService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DregsDeleteService.h; sourceTree = "<group>"; };
+		A1E4000815BB749200B481D4 /* DregsDeleteService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsDeleteService.m; sourceTree = "<group>"; };
+		A1E4000915BB749200B481D4 /* DregsError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DregsError.h; sourceTree = "<group>"; };
+		A1E4000A15BB749200B481D4 /* DregsError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsError.m; sourceTree = "<group>"; };
+		A1E4000B15BB749200B481D4 /* DregsReadManyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DregsReadManyService.h; sourceTree = "<group>"; };
+		A1E4000C15BB749200B481D4 /* DregsReadManyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsReadManyService.m; sourceTree = "<group>"; };
+		A1E4000D15BB749200B481D4 /* DregsReadOneService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DregsReadOneService.h; sourceTree = "<group>"; };
+		A1E4000E15BB749200B481D4 /* DregsReadOneService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsReadOneService.m; sourceTree = "<group>"; };
+		A1E4000F15BB749200B481D4 /* DregsResourceConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DregsResourceConfiguration.h; sourceTree = "<group>"; };
+		A1E4001015BB749200B481D4 /* DregsResourceConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsResourceConfiguration.m; sourceTree = "<group>"; };
+		A1E4001115BB749200B481D4 /* DregsRoutingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DregsRoutingConfiguration.h; sourceTree = "<group>"; };
+		A1E4001215BB749200B481D4 /* DregsRoutingConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsRoutingConfiguration.m; sourceTree = "<group>"; };
+		A1E4001315BB749200B481D4 /* DregsServiceBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DregsServiceBase.h; sourceTree = "<group>"; };
+		A1E4001415BB749200B481D4 /* DregsServiceBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsServiceBase.m; sourceTree = "<group>"; };
+		A1E4001515BB749200B481D4 /* DregsUpdateService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DregsUpdateService.h; sourceTree = "<group>"; };
+		A1E4001615BB749200B481D4 /* DregsUpdateService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsUpdateService.m; sourceTree = "<group>"; };
+		A1E4003015BB757D00B481D4 /* libRestKit.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libRestKit.a; path = "Frameworks/RestKit/Build/Products/Release-iphoneos/libRestKit.a"; sourceTree = "<group>"; };
+		A1E4003215BB758600B481D4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A1E4003415BB758F00B481D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A1E4003615BB759700B481D4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A1E4003815BB759E00B481D4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A1E4003A15BB75A800B481D4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A1E4003C15BB75AF00B481D4 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		A1E4003E15BB75B800B481D4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A1E4004015BB760E00B481D4 /* DreggableTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DreggableTask.h; sourceTree = "<group>"; };
+		A1E4004115BB760E00B481D4 /* DreggableTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DreggableTask.m; sourceTree = "<group>"; };
+		A1E4004215BB760E00B481D4 /* DregsConfiguratorSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsConfiguratorSpec.m; sourceTree = "<group>"; };
+		A1E4004315BB760E00B481D4 /* DregsCreateServiceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsCreateServiceSpec.m; sourceTree = "<group>"; };
+		A1E4004415BB760E00B481D4 /* DregsDeleteServiceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsDeleteServiceSpec.m; sourceTree = "<group>"; };
+		A1E4004515BB760E00B481D4 /* DregsReadManyServiceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsReadManyServiceSpec.m; sourceTree = "<group>"; };
+		A1E4004615BB760E00B481D4 /* DregsReadOneServiceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsReadOneServiceSpec.m; sourceTree = "<group>"; };
+		A1E4004715BB760E00B481D4 /* DregsResourceConfigurationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsResourceConfigurationSpec.m; sourceTree = "<group>"; };
+		A1E4004815BB760E00B481D4 /* DregsRoutingConfigurationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsRoutingConfigurationSpec.m; sourceTree = "<group>"; };
+		A1E4004915BB760E00B481D4 /* DregsUpdateServiceSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsUpdateServiceSpec.m; sourceTree = "<group>"; };
+		A1E4006615BB791300B481D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1E4006915BB79AA00B481D4 /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = Frameworks/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
 		A1E4FFC715BB706200B481D4 /* libDregs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDregs.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E4FFCA15BB706200B481D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A1E4FFCE15BB706200B481D4 /* Dregs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dregs-Prefix.pch"; sourceTree = "<group>"; };
-		A1E4FFCF15BB706200B481D4 /* Dregs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dregs.h; sourceTree = "<group>"; };
-		A1E4FFD015BB706200B481D4 /* Dregs.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dregs.m; sourceTree = "<group>"; };
 		A1E4FFD715BB706200B481D4 /* DregsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DregsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E4FFD815BB706200B481D4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A1E4FFDA15BB706200B481D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A1E4FFE215BB706200B481D4 /* DregsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DregsTests-Info.plist"; sourceTree = "<group>"; };
 		A1E4FFE415BB706200B481D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A1E4FFF715BB729400B481D4 /* MathSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathSpec.m; sourceTree = "<group>"; };
 		A1E4FFFA15BB734300B481D4 /* libKiwi.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libKiwi.a; path = "Frameworks/Kiwi/build/Release-iphoneos/libKiwi.a"; sourceTree = "<group>"; };
+		A1E4FFFC15BB741F00B481D4 /* DregsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsSpec.m; sourceTree = "<group>"; };
+		A1E4FFFE15BB743F00B481D4 /* DregsSpecHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DregsSpecHelper.h; sourceTree = "<group>"; };
+		A1E4FFFF15BB743F00B481D4 /* DregsSpecHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DregsSpecHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +188,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E4006715BB791300B481D4 /* CoreGraphics.framework in Frameworks */,
+				A1E4003115BB757D00B481D4 /* libRestKit.a in Frameworks */,
+				A1E4003D15BB75AF00B481D4 /* libxml2.dylib in Frameworks */,
+				A1E4003F15BB75B800B481D4 /* QuartzCore.framework in Frameworks */,
+				A1E4003B15BB75A800B481D4 /* SystemConfiguration.framework in Frameworks */,
+				A1E4003915BB759E00B481D4 /* MobileCoreServices.framework in Frameworks */,
+				A1E4003715BB759700B481D4 /* Security.framework in Frameworks */,
+				A1E4003515BB758F00B481D4 /* CoreData.framework in Frameworks */,
+				A1E4003315BB758600B481D4 /* CFNetwork.framework in Frameworks */,
 				A1E4FFCB15BB706200B481D4 /* Foundation.framework in Frameworks */,
+				A1E4008715BB7B3E00B481D4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,16 +207,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1E4FFFB15BB734300B481D4 /* libKiwi.a in Frameworks */,
-				A1E4FFD915BB706200B481D4 /* SenTestingKit.framework in Frameworks */,
-				A1E4FFDB15BB706200B481D4 /* UIKit.framework in Frameworks */,
-				A1E4FFDC15BB706200B481D4 /* Foundation.framework in Frameworks */,
 				A1E4FFDF15BB706200B481D4 /* libDregs.a in Frameworks */,
+				A1E4005A15BB767900B481D4 /* libxml2.dylib in Frameworks */,
+				A1E4005715BB766300B481D4 /* Security.framework in Frameworks */,
+				A1E4005615BB765E00B481D4 /* CoreData.framework in Frameworks */,
+				A1E4005515BB765700B481D4 /* CFNetwork.framework in Frameworks */,
+				A1E4FFDC15BB706200B481D4 /* Foundation.framework in Frameworks */,
+				A1E4005B15BB768300B481D4 /* QuartzCore.framework in Frameworks */,
+				A1E4006115BB784F00B481D4 /* SenTestingKit.framework in Frameworks */,
+				A1E4008415BB7B2500B481D4 /* CoreGraphics.framework in Frameworks */,
+				A1E4005815BB766B00B481D4 /* MobileCoreServices.framework in Frameworks */,
+				A1E4005915BB767200B481D4 /* SystemConfiguration.framework in Frameworks */,
+				A1E4008615BB7B3A00B481D4 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1E4006A15BB79AA00B481D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1E4007215BB79AA00B481D4 /* libRestKit.a */,
+				A1E4007415BB79AA00B481D4 /* RestKitTests.octest */,
+				A1E4007615BB79AA00B481D4 /* RestKit.framework */,
+				A1E4007815BB79AA00B481D4 /* RestKitFrameworkTests.octest */,
+				A1E4007A15BB79AA00B481D4 /* RestKitResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A1E4FFBC15BB706200B481D4 = {
 			isa = PBXGroup;
 			children = (
@@ -89,10 +259,20 @@
 		A1E4FFC915BB706200B481D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1E4006915BB79AA00B481D4 /* RestKit.xcodeproj */,
 				A1E4FFFA15BB734300B481D4 /* libKiwi.a */,
+				A1E4003015BB757D00B481D4 /* libRestKit.a */,
+				A1E4003C15BB75AF00B481D4 /* libxml2.dylib */,
+				A1E4FFDA15BB706200B481D4 /* UIKit.framework */,
+				A1E4006615BB791300B481D4 /* CoreGraphics.framework */,
+				A1E4003E15BB75B800B481D4 /* QuartzCore.framework */,
+				A1E4003A15BB75A800B481D4 /* SystemConfiguration.framework */,
+				A1E4003815BB759E00B481D4 /* MobileCoreServices.framework */,
+				A1E4003615BB759700B481D4 /* Security.framework */,
+				A1E4003415BB758F00B481D4 /* CoreData.framework */,
+				A1E4003215BB758600B481D4 /* CFNetwork.framework */,
 				A1E4FFCA15BB706200B481D4 /* Foundation.framework */,
 				A1E4FFD815BB706200B481D4 /* SenTestingKit.framework */,
-				A1E4FFDA15BB706200B481D4 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -100,8 +280,28 @@
 		A1E4FFCC15BB706200B481D4 /* Dregs */ = {
 			isa = PBXGroup;
 			children = (
-				A1E4FFCF15BB706200B481D4 /* Dregs.h */,
-				A1E4FFD015BB706200B481D4 /* Dregs.m */,
+				A1E4000115BB749200B481D4 /* Dregs.h */,
+				A1E4000215BB749200B481D4 /* Dregs.m */,
+				A1E4000315BB749200B481D4 /* DregsConfigurator.h */,
+				A1E4000415BB749200B481D4 /* DregsConfigurator.m */,
+				A1E4000515BB749200B481D4 /* DregsCreateService.h */,
+				A1E4000615BB749200B481D4 /* DregsCreateService.m */,
+				A1E4000715BB749200B481D4 /* DregsDeleteService.h */,
+				A1E4000815BB749200B481D4 /* DregsDeleteService.m */,
+				A1E4000915BB749200B481D4 /* DregsError.h */,
+				A1E4000A15BB749200B481D4 /* DregsError.m */,
+				A1E4000B15BB749200B481D4 /* DregsReadManyService.h */,
+				A1E4000C15BB749200B481D4 /* DregsReadManyService.m */,
+				A1E4000D15BB749200B481D4 /* DregsReadOneService.h */,
+				A1E4000E15BB749200B481D4 /* DregsReadOneService.m */,
+				A1E4000F15BB749200B481D4 /* DregsResourceConfiguration.h */,
+				A1E4001015BB749200B481D4 /* DregsResourceConfiguration.m */,
+				A1E4001115BB749200B481D4 /* DregsRoutingConfiguration.h */,
+				A1E4001215BB749200B481D4 /* DregsRoutingConfiguration.m */,
+				A1E4001315BB749200B481D4 /* DregsServiceBase.h */,
+				A1E4001415BB749200B481D4 /* DregsServiceBase.m */,
+				A1E4001515BB749200B481D4 /* DregsUpdateService.h */,
+				A1E4001615BB749200B481D4 /* DregsUpdateService.m */,
 				A1E4FFCD15BB706200B481D4 /* Supporting Files */,
 			);
 			path = Dregs;
@@ -118,7 +318,19 @@
 		A1E4FFE015BB706200B481D4 /* DregsTests */ = {
 			isa = PBXGroup;
 			children = (
-				A1E4FFF715BB729400B481D4 /* MathSpec.m */,
+				A1E4004015BB760E00B481D4 /* DreggableTask.h */,
+				A1E4004115BB760E00B481D4 /* DreggableTask.m */,
+				A1E4004215BB760E00B481D4 /* DregsConfiguratorSpec.m */,
+				A1E4004315BB760E00B481D4 /* DregsCreateServiceSpec.m */,
+				A1E4004415BB760E00B481D4 /* DregsDeleteServiceSpec.m */,
+				A1E4004515BB760E00B481D4 /* DregsReadManyServiceSpec.m */,
+				A1E4004615BB760E00B481D4 /* DregsReadOneServiceSpec.m */,
+				A1E4004715BB760E00B481D4 /* DregsResourceConfigurationSpec.m */,
+				A1E4004815BB760E00B481D4 /* DregsRoutingConfigurationSpec.m */,
+				A1E4004915BB760E00B481D4 /* DregsUpdateServiceSpec.m */,
+				A1E4FFFE15BB743F00B481D4 /* DregsSpecHelper.h */,
+				A1E4FFFF15BB743F00B481D4 /* DregsSpecHelper.m */,
+				A1E4FFFC15BB741F00B481D4 /* DregsSpec.m */,
 				A1E4FFE115BB706200B481D4 /* Supporting Files */,
 			);
 			path = DregsTests;
@@ -140,6 +352,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E4001715BB749200B481D4 /* Dregs.h in Headers */,
+				A1E4001915BB749200B481D4 /* DregsConfigurator.h in Headers */,
+				A1E4001B15BB749200B481D4 /* DregsCreateService.h in Headers */,
+				A1E4001D15BB749200B481D4 /* DregsDeleteService.h in Headers */,
+				A1E4001F15BB749200B481D4 /* DregsError.h in Headers */,
+				A1E4002115BB749200B481D4 /* DregsReadManyService.h in Headers */,
+				A1E4002315BB749200B481D4 /* DregsReadOneService.h in Headers */,
+				A1E4002515BB749200B481D4 /* DregsResourceConfiguration.h in Headers */,
+				A1E4002715BB749200B481D4 /* DregsRoutingConfiguration.h in Headers */,
+				A1E4002915BB749200B481D4 /* DregsServiceBase.h in Headers */,
+				A1E4002B15BB749200B481D4 /* DregsUpdateService.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +380,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A1E4007C15BB79B600B481D4 /* PBXTargetDependency */,
 			);
 			name = Dregs;
 			productName = Dregs;
@@ -175,6 +399,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				A1E4007E15BB79BE00B481D4 /* PBXTargetDependency */,
 				A1E4FFDE15BB706200B481D4 /* PBXTargetDependency */,
 			);
 			name = DregsTests;
@@ -201,6 +426,12 @@
 			mainGroup = A1E4FFBC15BB706200B481D4;
 			productRefGroup = A1E4FFC815BB706200B481D4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A1E4006A15BB79AA00B481D4 /* Products */;
+					ProjectRef = A1E4006915BB79AA00B481D4 /* RestKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A1E4FFC615BB706200B481D4 /* Dregs */,
@@ -208,6 +439,44 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A1E4007215BB79AA00B481D4 /* libRestKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRestKit.a;
+			remoteRef = A1E4007115BB79AA00B481D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1E4007415BB79AA00B481D4 /* RestKitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitTests.octest;
+			remoteRef = A1E4007315BB79AA00B481D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1E4007615BB79AA00B481D4 /* RestKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = RestKit.framework;
+			remoteRef = A1E4007515BB79AA00B481D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1E4007815BB79AA00B481D4 /* RestKitFrameworkTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitFrameworkTests.octest;
+			remoteRef = A1E4007715BB79AA00B481D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A1E4007A15BB79AA00B481D4 /* RestKitResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RestKitResources.bundle;
+			remoteRef = A1E4007915BB79AA00B481D4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A1E4FFD415BB706200B481D4 /* Resources */ = {
@@ -241,7 +510,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1E4FFD115BB706200B481D4 /* Dregs.m in Sources */,
+				A1E4001815BB749200B481D4 /* Dregs.m in Sources */,
+				A1E4001A15BB749200B481D4 /* DregsConfigurator.m in Sources */,
+				A1E4001C15BB749200B481D4 /* DregsCreateService.m in Sources */,
+				A1E4001E15BB749200B481D4 /* DregsDeleteService.m in Sources */,
+				A1E4002015BB749200B481D4 /* DregsError.m in Sources */,
+				A1E4002215BB749200B481D4 /* DregsReadManyService.m in Sources */,
+				A1E4002415BB749200B481D4 /* DregsReadOneService.m in Sources */,
+				A1E4002615BB749200B481D4 /* DregsResourceConfiguration.m in Sources */,
+				A1E4002815BB749200B481D4 /* DregsRoutingConfiguration.m in Sources */,
+				A1E4002A15BB749200B481D4 /* DregsServiceBase.m in Sources */,
+				A1E4002C15BB749200B481D4 /* DregsUpdateService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,13 +528,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1E4FFF815BB729400B481D4 /* MathSpec.m in Sources */,
+				A1E4008815BB7B5E00B481D4 /* DreggableTask.m in Sources */,
+				A1E4008915BB7B7500B481D4 /* DregsConfiguratorSpec.m in Sources */,
+				A1E4008A15BB7B7800B481D4 /* DregsCreateServiceSpec.m in Sources */,
+				A1E4008B15BB7B7A00B481D4 /* DregsDeleteServiceSpec.m in Sources */,
+				A1E4008C15BB7B7C00B481D4 /* DregsReadManyServiceSpec.m in Sources */,
+				A1E4008D15BB7B8000B481D4 /* DregsReadOneServiceSpec.m in Sources */,
+				A1E4008E15BB7B8200B481D4 /* DregsResourceConfigurationSpec.m in Sources */,
+				A1E4008F15BB7B8500B481D4 /* DregsRoutingConfigurationSpec.m in Sources */,
+				A1E4009015BB7B8700B481D4 /* DregsUpdateServiceSpec.m in Sources */,
+				A1E4009115BB7B8B00B481D4 /* DregsSpecHelper.m in Sources */,
+				A1E4009215BB7B8D00B481D4 /* DregsSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A1E4007C15BB79B600B481D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = A1E4007B15BB79B600B481D4 /* PBXContainerItemProxy */;
+		};
+		A1E4007E15BB79BE00B481D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RestKit;
+			targetProxy = A1E4007D15BB79BE00B481D4 /* PBXContainerItemProxy */;
+		};
 		A1E4FFDE15BB706200B481D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A1E4FFC615BB706200B481D4 /* Dregs */;
@@ -293,7 +592,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -309,7 +613,12 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(BUILT_PRODUCTS_DIR)/../../Headers\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -319,6 +628,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/Dregs.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dregs/Dregs-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -331,6 +644,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DSTROOT = /tmp/Dregs.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dregs/Dregs-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
